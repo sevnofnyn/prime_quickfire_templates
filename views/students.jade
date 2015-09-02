@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .container
+        h1 Students
+
+
+        form#submit(name="Student Name", method="post")
+            div.input-text
+                span.label First Name
+                input(type="text", name="first")
+            div.input-text
+                span.label Last Name
+                input(type="text", name="last")
+            div.actions
+                button#submitName Submit Name!
